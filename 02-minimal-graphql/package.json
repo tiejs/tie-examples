@@ -1,0 +1,22 @@
+{
+  "name": "02",
+  "scripts": {
+    "dev": "tie dev",
+    "build": "tie build",
+    "test": "tie test"
+  },
+  "eslintConfig": {
+    "extends": "tie-app"
+  },
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100
+  },
+  "dependencies": {
+    "@tiejs/core": "^1.1.0",
+    "tie-cli": "^1.0.1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "07",
+  "scripts": {
+    "dev": "tie dev",
+    "build": "tie build",
+    "test": "tie test"
+  },
+  "eslintConfig": {
+    "extends": "tie-app"
+  },
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100
+  },
+  "dependencies": {
+    "@tiejs/core": "^1.1.0",
+    "@tiejs/typeorm": "^1.1.0",
+    "mongodb": "^3.5.8",
+    "tie-cli": "^1.0.1"
+  }
+}
