@@ -16,7 +16,7 @@
     "printWidth": 100
   },
   "dependencies": {
-    "@tiejs/core": "^1.1.0",
+    "@tiejs/core": "^1.2.0",
     "tie-cli": "^1.0.1"
   }
 }

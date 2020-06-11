@@ -16,8 +16,8 @@
     "printWidth": 100
   },
   "dependencies": {
-    "@tiejs/core": "^1.1.0",
-    "@tiejs/typeorm": "^1.1.0",
+    "@tiejs/core": "^1.2.0",
+    "@tiejs/typeorm": "^1.2.0",
     "mongodb": "^3.5.8",
     "tie-cli": "^1.0.1"
   }
