@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "@tiejs/core": "^1.3.0",
-    "tie-cli": "^1.0.1"
+    "tie-cli": "^1.1.0"
   }
 }
