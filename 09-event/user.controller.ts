@@ -1,13 +1,12 @@
 import { Controller, Get } from '@tiejs/controller'
-import { InjectEmitter } from '@tiejs/event'
-import EventEmitter from 'eventemitter3'
+import { InjectEmitter, Emitter } from './event'
 
 @Controller()
 export class UserController {
-  constructor(@InjectEmitter() private emitter: EventEmitter) {}
+  constructor(@InjectEmitter() private emitter: Emitter) {}
   @Get('/updateUser')
-  index() {
-    this.emitter.emit('updateUser', 10)
+  async index() {
+    this.emitter.emit('updateUser', 10, 19)
     return 'user updated'
   }
 }
