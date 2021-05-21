@@ -1,8 +1,10 @@
 import { Resolver, Query, Arg, Mutation } from 'type-graphql'
+import { Injectable } from '@tiejs/common'
 import { User } from './user.type'
 import { UserService } from './user.service'
 import { CreateUserInput } from './createUser.input'
 
+@Injectable()
 @Resolver(() => User)
 export class UserResolver {
   constructor(private userService: UserService) {}

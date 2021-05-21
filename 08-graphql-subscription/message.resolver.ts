@@ -1,4 +1,5 @@
 import { PubSubEngine } from 'graphql-subscriptions'
+import { Injectable } from '@tiejs/common'
 import {
   Resolver,
   Query,
@@ -28,6 +29,7 @@ export interface MessagePayload {
   content?: string
 }
 
+@Injectable()
 @Resolver()
 export class SampleResolver {
   private currentId = 0

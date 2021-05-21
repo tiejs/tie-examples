@@ -1,10 +1,11 @@
 import { PluginConfig } from '@tiejs/common'
-import EventPlugin from '../event'
+import EventPlugin from '@tiejs/event'
 
 export const plugins: PluginConfig = [
   {
     name: 'event',
-    main: EventPlugin,
+    package: '@tiejs/event',
     enable: true,
   },
+
 ]
